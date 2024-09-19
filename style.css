@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* lets style the body */
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.container{
+    width: 500px;
+    height: 100vh;
+    text-align: center;
+    margin-top: 50px;
+}
+/* lets style each box */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 40px;
+    color: black;
+   
+}
+.box:hover{
+    background-color: red;
+    
+}
+ 
+.game-box{
+    background-color: aqua;
+    margin: auto;
+    width: 400px;
+    height:60vh ;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    height: 70px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+/* lets style the reset button */
+.reset-btn{
+    font-size: 20px;
+    padding: 10px;
+    color:red;
+    background-color:white ;
+    border-radius: 5px;
+}
+.reset-btn:hover{
+    cursor: pointer;
+}
+.reset-btn:active{
+    background-color:rgb(245, 187, 187);
+}
+.result h3{
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    height: max-content;
+    display: flex;
+    padding: 10px;
+
+}
+.result h3 .winner{
+    font-size: 20px;
+}
+ 
+ 
